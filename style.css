@@ -3,6 +3,10 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
+
+body{
+	background-color: #090909;
+}
 a {
 	text-decoration: none;
 }
@@ -47,7 +51,7 @@ a {
 }
 
 #hero {
-	background-color: #240046;
+	background-color: #090909;
 	background-size: cover;
 	background-position: top center;
 	position: relative;

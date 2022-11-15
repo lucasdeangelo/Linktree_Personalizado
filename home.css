@@ -1,9 +1,107 @@
+html {
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 .header1{
-    background-color: #4F518C;
+    background-color: #240046;
     padding: 60px;
     opacity: 80%;
     border-radius: 0px 0px 80px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.header1 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 1.7rem;
+    padding: 30px;
+    margin-left: 750px;
+
+}
+.container1 a{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    background-color: #4F518C;
+    border-radius: 80px;
+    margin-left: 700px;
+    margin-top: 50px;
+    height: 40px;
+    width: 450px;
+}
+.container1 p{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container2 a{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    background-color: #4F518C;
+    border-radius: 80px;
+    margin-left: 700px;
+    margin-top: 50px;
+    height: 40px;
+    width: 450px;
+}
+.container2 p{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container3 a{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    background-color: #4F518C;
+    border-radius: 80px;
+    margin-left: 700px;
+    margin-top: 50px;
+    height: 40px;
+    width: 450px;
+}
+.container3 p{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container4 a{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    background-color: #4F518C;
+    border-radius: 80px;
+    margin-left: 700px;
+    margin-top: 50px;
+    height: 40px;
+    width: 450px;
+}
+.container4 p{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }

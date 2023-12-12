@@ -3,6 +3,7 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
+
 a{
     text-decoration: none;
     display: flex;
@@ -12,7 +13,7 @@ a{
     background-color: #3D0066;
     padding: 25px;
     opacity: 80%;
-    border-radius: 0px 0px 80px 0px;
+    border-radius: 0px 0px 40px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,18 +28,20 @@ a{
     font-size: 1.7rem;
     padding: 30px;
     margin-left: 780px;
-
 }
 .container1 a{
     flex-direction: row;
     display: flex;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #FFD500;
-    border-radius: 30px;
     margin-left: 700px;
-    margin-top: 50px;
+    margin-top: 80px;
     height: 40px;
     width: 450px;
+}
+.container1 a:hover{
+    background-color: #e5bf03;
 }
 .container1 p{
     font-size: 1.6rem;
@@ -51,13 +54,16 @@ a{
 .container2 a{
     flex-direction: row;
     display: flex;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #FFD500;
-    border-radius: 30px;
     margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
+}
+.container2 a:hover{
+    background-color: #e5bf03;
 }
 .container2 p{
     font-size: 1.6rem;
@@ -70,13 +76,16 @@ a{
 .container3 a{
     flex-direction: row;
     display: flex;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #FFD500;
-    border-radius: 30px;
     margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
+}
+.container3 a:hover{
+    background-color: #e5bf03;
 }
 .container3 p{
     font-size: 1.6rem;
@@ -89,15 +98,40 @@ a{
 .container4 a{
     flex-direction: row;
     display: flex;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #FFD500;
-    border-radius: 30px;
     margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
 }
+.container4 a:hover{
+    background-color: #e5bf03;
+}
 .container4 p{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container5 a{
+    flex-direction: row;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #FFD500;
+    margin-left: 700px;
+    margin-top: 50px;
+    height: 40px;
+    width: 450px;
+}
+.container5 a:hover{
+    background-color: #e5bf03;
+}
+.container5 p{
     font-size: 1.6rem;
     display: flex;
     flex-direction: row;
@@ -124,7 +158,7 @@ a{
         display: flex;
         padding: 20px;
         background-color: #FFD500;
-        border-radius: 30px;
+        border-radius: 20px;
         margin-left: 15px;
         margin-top: 50px;
         height: 20px;
@@ -139,13 +173,13 @@ a{
         align-items: center;
         color: white;
     }
-
+    
     .container2 a{
         flex-direction: row;
         display: flex;
         padding: 20px;
         background-color: #FFD500;
-        border-radius: 30px;
+        border-radius: 20px;
         margin-left: 15px;
         margin-top: 50px;
         height: 20px;
@@ -166,7 +200,7 @@ a{
         display: flex;
         padding: 20px;
         background-color: #FFD500;
-        border-radius: 30px;
+        border-radius: 20px;
         margin-left: 15px;
         margin-top: 50px;
         height: 20px;
@@ -187,7 +221,7 @@ a{
         display: flex;
         padding: 20px;
         background-color: #FFD500;
-        border-radius: 30px;
+        border-radius: 20px;
         margin-left: 15px;
         margin-top: 50px;
         height: 20px;
@@ -195,6 +229,27 @@ a{
     }
     
     .container4 p{
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .container5 a{
+        flex-direction: row;
+        display: flex;
+        padding: 20px;
+        background-color: #FFD500;
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-top: 50px;
+        height: 20px;
+        width: 340px;
+    }
+    
+    .container5 p{
         font-size: 1.4rem;
         display: flex;
         flex-direction: row;

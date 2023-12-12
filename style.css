@@ -5,7 +5,7 @@ html {
 }
 
 body{
-	background-color: #3D0066;
+	background-color: #000;
 }
 a {
 	text-decoration: none;
@@ -39,7 +39,6 @@ a {
 	background-color: #F9F3FF;
 	border-radius: 15px;
 	font-size: 1.6rem;
-    font-weight: 600;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
 	transition: 0.3s ease;
@@ -136,5 +135,20 @@ a {
 }
 
 @media screen {
-    
+    .cta {
+		display: inline-block;
+		padding: 15px 30px;
+		color: black;
+		background-color: #F9F3FF;
+		border-radius: 15px;
+		font-size: 1.6rem;
+		letter-spacing: 0.1rem;
+		margin-top: 30px;
+		transition: 0.3s ease;
+		transition-property: background-color, color;
+	}
+	.cta:hover {
+		color: black;
+		background-color: #c7c3cc;
+	}
 }

@@ -9,7 +9,9 @@ a{
     display: flex;
     justify-content: center;
 }
+
 .header1{
+    display: flex;
     background-color: #3D0066;
     padding: 25px;
     opacity: 80%;
@@ -27,16 +29,23 @@ a{
     color: white;
     font-size: 1.7rem;
     padding: 30px;
-    margin-left: 780px;
+    margin-left: 800px;
 }
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container1 a{
     flex-direction: row;
     display: flex;
     padding: 15px;
     border-radius: 20px;
-    background-color: #FFD500;
-    margin-left: 700px;
-    margin-top: 80px;
+    background-color: #FFD500;    
+    margin-top: 130px;
     height: 40px;
     width: 450px;
 }
@@ -57,7 +66,6 @@ a{
     padding: 15px;
     border-radius: 20px;
     background-color: #FFD500;
-    margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
@@ -79,7 +87,6 @@ a{
     padding: 15px;
     border-radius: 20px;
     background-color: #FFD500;
-    margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
@@ -101,7 +108,6 @@ a{
     padding: 15px;
     border-radius: 20px;
     background-color: #FFD500;
-    margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
@@ -123,7 +129,6 @@ a{
     padding: 15px;
     border-radius: 20px;
     background-color: #FFD500;
-    margin-left: 700px;
     margin-top: 50px;
     height: 40px;
     width: 450px;
